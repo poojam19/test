@@ -1,6 +1,4 @@
 var restify = require("restify")
-
-
 var Ajv = require('ajv');
 var ajv = Ajv({allErrors: true});
 
