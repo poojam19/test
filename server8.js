@@ -25,5 +25,5 @@ function test(data) {
 var server = restify.createServer();
 
 server.listen(8080, function(){
-    console.log("listening at" , server.name , server.url);
+    console.log("listening at:" , server.name , server.url);
 }); 
