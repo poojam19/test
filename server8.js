@@ -1,6 +1,6 @@
-var restify = require("restify")
-var Ajv = require('ajv');
-var ajv = Ajv({allErrors: true});
+var restify = require("restify"),
+ Ajv = require('ajv'),
+ ajv = Ajv({allErrors: true});
 
 var schema = {
   "properties": {
